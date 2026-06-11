@@ -26,5 +26,6 @@ OMP's RPC and ACP protocols may add new commands but existing ones are backward-
 ## 5. Repo Boundaries
 
 - This is the **public code repo**. Code, README, and contributor-facing docs live here.
-- Internal planning and specs live in a separate private repo. Do not commit planning documents here.
+- Internal planning and specs live in a separate private companion repo. Do not commit planning documents here.
 - Do not reference private repos or internal URLs in code comments or commit messages.
+- The companion repo is discovered automatically via the cross-agent rule in `~/.agent/AGENTS.md`. If you are an AI agent and not seeing the specs, ensure that file is loaded in your context.
